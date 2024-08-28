@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="main.js"></script>
+    <title>Scott's Timer</title>
+  </head>
+  <body>
+    <audio id="alarm" loop>
+      <source src="Audio/alarm.wav" type="audio/wav" />
+    </audio>
+
+    <div id="timerContainer">
+      <h1>Timer</h1>
+      <div id="inputContainer">
+        <label for="hrSpinner" id="hrLabel">Hr:</label>
+        <input id="hrSpinner" value="0" size="1" readonly />
+        <label for="minSpinner" id="minLabel">Min:</label>
+        <input id="minSpinner" value="1" size="1" readonly />
+        <label for="secSpinner" id="secLabel">Sec:</label>
+        <input id="secSpinner" value="30" size="1" readonly />
+      </div>
+      <p id="timer">HH:MM:SS</p>
+      <div id="btnContainer">
+        <button id="btnStart" type="button">Start</button>
+        <button id="btnPause" type="button" disabled>Pause</button>
+        <button id="btnReset" type="button" disabled>Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
