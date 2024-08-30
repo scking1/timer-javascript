@@ -21,4 +21,6 @@ I'd also like to add an interval feature for exercising but that may require an 
 
 ### Resources
 
-I followed The Coding Train's YouTube tutorial [Coding Challenge #66: JavaScript Countdown Timer](https://youtu.be/MLtAMg9_Svw?si=w3LoTd44cZeGSsIq) for the timer logic.
+1. I followed The Coding Train's YouTube tutorial [Coding Challenge #66: JavaScript Countdown Timer](https://youtu.be/MLtAMg9_Svw?si=w3LoTd44cZeGSsIq) for the timer logic.
+
+2. The documentation for the jQuery UI spinners can be found [here](https://jqueryui.com/spinner/).
